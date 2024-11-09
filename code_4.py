@@ -37,4 +37,11 @@ print("Hello, " + guest[0].title() + message)
 print("Hello, " + guest[2].title() + message)
 print("Hello, " + guest[-1].title() + message)
 
+#popping out guest due to lack of dinner table
+
+guest.pop(3)
+guest.pop(2)
+
+
+
 
